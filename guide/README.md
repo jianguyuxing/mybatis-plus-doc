@@ -3,7 +3,8 @@
 [MyBatis-Plus](https://github.com/baomidou/mybatis-plus)（简称 MP）是一个 [MyBatis](http://www.mybatis.org/mybatis-3/) 的增强工具，在 MyBatis 的基础上只做增强不做改变，为简化开发、提高效率而生。
 
 <p class="demo">
-    <a href="https://www.aliyun.com/1111/2019/home?userCode=5wbjwd1y" target="_blank"><img style="width:216px;height:116px;" src="https://img.alicdn.com/tfs/TB166qCkXT7gK0jSZFpXXaTkpXa-750-400.png"/></a>
+    <a href="https://www.aliyun.com/1212/2019/home?userCode=5wbjwd1y" target="_blank"><img style="width:216px;height:116px;" src="https://img.alicdn.com/tfs/TB1_rYHo7P2gK0jSZPxXXacQpXa-690-388.jpg"/></a>
+    <br/>
 </p>
 
 ::: tip 愿景
@@ -106,6 +107,7 @@
 - [tyboot](https://gitee.com/magintursh/tyboot)：基于SpringBoot的快速开发脚手架
 - [ac-blog](https://github.com/memo012/ac-blog) ac博客网站
 - [spider-flow](https://gitee.com/jmxd/spider-flow) 新一代爬虫平台，以图形化方式定义爬虫流程，不写代码即可完成爬虫
+- [goodskill](https://github.com/techa03/goodsKill)：基于Dubbo + SpringBoot搭建的秒杀系统
 
 ## 接入企业
 
@@ -175,3 +177,11 @@
 - 云鹊医疗科技（上海）有限公司
 - 昆明有数科技有限公司
 - 大手云(上海)金融信息服务有限公司
+- 深圳未来云集
+- 上海乔融金融信息服务有限公司
+- 苏州墨焱网络科技有限公司
+- 深兰科技(上海)有限公司
+- 济南悦码信息科技有限公司
+- 北京魔力耳朵科技有限公司
+- 宋城独木桥网络有限公司
+- 重庆景辉昱阳科技有限公司

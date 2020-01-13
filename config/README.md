@@ -165,7 +165,7 @@ MyBatis-Plus 全局策略配置，具体请查看 [GlobalConfig](#GlobalConfig)
 
 - org.apache.ibatis.type.EnumTypeHandler : 存储枚举的名称
 - org.apache.ibatis.type.EnumOrdinalTypeHandler : 存储枚举的索引
-- com.baomidou.mybatisplus.extension.handlers.EnumTypeHandler : 枚举类需要实现IEnum接口或字段标记@EnumValue注解.
+- com.baomidou.mybatisplus.extension.handlers.MybatisEnumTypeHandler : 枚举类需要实现IEnum接口或字段标记@EnumValue注解.(3.1.2以下版本为EnumTypeHandler)
 - ~~com.baomidou.mybatisplus.extension.handlers.EnumAnnotationTypeHandler: 枚举类字段需要标记@EnumValue注解~~
 
 :::
@@ -285,6 +285,13 @@ SQL注入器(starter 下支持`@bean`注入)
 - 默认值：`null`
 
 元对象字段填充控制器(starter 下支持`@bean`注入)
+
+### idGenerator(since 3.2.1)
+
+- 类型：`com.baomidou.mybatisplus.core.incrementer.IdGenerator`
+- 默认值：`null`
+
+Id生成器(starter 下支持`@bean`注入)
 
 ### dbConfig
 

@@ -11,7 +11,7 @@ sidebarDepth: 3
 - 类型：`DataSourceConfig`
 - 默认值：`null`
 
-数据源配置，通过该配置，指定需要生成代码的具体数据库，具体请查看 [数据源配置](#数据源配置)
+数据源配置，通过该配置，指定需要生成代码的具体数据库，具体请查看 [数据源配置](#数据源-datasourceconfig-配置)
 
 
 ### strategy
@@ -43,7 +43,7 @@ sidebarDepth: 3
 - 类型：`GlobalConfig`
 - 默认值：`null`
 
-全局策略配置，具体请查看 [全局策略配置](#全局策略配置)
+全局策略配置，具体请查看 [全局策略配置](#全局策略-globalconfig-配置)
 
 
 ### injectionConfig
@@ -51,7 +51,7 @@ sidebarDepth: 3
 - 类型：`InjectionConfig`
 - 默认值：`null`
 
-注入配置，通过该配置，可注入自定义参数等操作以实现个性化操作，具体请查看 [注入配置](#注入配置)
+注入配置，通过该配置，可注入自定义参数等操作以实现个性化操作，具体请查看 [注入配置](#注入-injectionconfig-配置)
 
 ## 数据源 `dataSourceConfig` 配置
 
@@ -127,11 +127,27 @@ sidebarDepth: 3
 ### superControllerClass
 自定义继承的Controller类全称，带包名
 
+### enableLike（since 3.3.1）
+
+默认激活进行sql模糊表名匹配，关闭之后likeTable与notLikeTable将失效
+
+如果有sql语法兼容性问题的话，请手动设置为false
+
+已知无法使用：微软系（暂无环境，等待PR）
+
 ### include
 需要包含的表名，允许正则表达式（与exclude二选一配置）
 
+### likeTable
+
+自3.3.0起，模糊匹配表名（与notLikeTable二选一配置）
+
 ### exclude
 需要排除的表名，允许正则表达式
+
+### notLikeTable
+
+自3.3.0起，模糊排除表名
 
 ### entityColumnConstant
 【实体】是否生成字段常量（默认 false）
